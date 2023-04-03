@@ -1,0 +1,15 @@
+.producto_kilos{
+    border:solid 1px var(--color-naranja);
+    background-color: white;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.producto_kilos:hover{
+    background-color: var(--color-naranja);
+    color: white;
+}
+.producto_kilosSeleccionado{
+    background-color: var(--color-naranja);
+    color: white;
+}

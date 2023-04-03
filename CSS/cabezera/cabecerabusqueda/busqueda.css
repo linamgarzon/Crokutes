@@ -1,0 +1,8 @@
+.cabezera_busqueda{
+    border-radius: .5rem;
+    margin: 1rem;
+    padding: .2rem;
+    border: none;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+}

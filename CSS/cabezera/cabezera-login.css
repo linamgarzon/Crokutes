@@ -1,0 +1,10 @@
+.cabezera_login{
+    border: solid .1rem #FF7C66; 
+    background-color: white;
+    color: #FF7C66;
+    border-radius: .5rem;
+    width: 180px;
+    height: 50px;
+    margin-top: 2rem;
+    margin-right: 4rem;
+}

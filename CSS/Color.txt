@@ -1,0 +1,8 @@
+:root{
+--color-verde: #7AFF73;
+--color-amarilloarena: #E8CC69;
+--color-naranja: #FF7C66;
+--color-morado: #A569E8;
+--color-azul: #66E7FF;
+--color-gris: #D8D6D;
+}

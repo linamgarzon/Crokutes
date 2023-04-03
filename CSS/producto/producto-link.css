@@ -1,0 +1,7 @@
+.producto_link{
+    margin-left: 100rem;
+    text-decoration: none;
+    color: var(--color-naranja);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
