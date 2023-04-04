@@ -3,7 +3,7 @@
     font-weight: bold;
 }
 .contacto__formulario{
-    display:inline-block;
+    display:grid;
 }
 .input-padron{
     width: 30rem;
@@ -14,7 +14,10 @@
     border-bottom: 1px solid var(--color-gris);
 }
 .contacto__nombre--letras{
+    position: relative;
     font-family: 'Montserrat', sans-serif;
+    top: 0;
+    left: 5px;
     margin-top: 1rem;
     transform: translate(10px);
 }
