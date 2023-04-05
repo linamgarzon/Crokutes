@@ -3,21 +3,56 @@
     font-weight: bold;
 }
 .contacto__formulario{
-    display:grid;
+    padding: 2rem 2rem;
+    text-align: center;
+    display: grid;
+    gap: 2em;
+}
+.contacto__relleno{
+    position: relative;
+    color: var(--color-gris);
+    
 }
 .input-padron{
-    width: 30rem;
+    width: 100%;
     padding: .5rem;
     border: none;
     outline: none;
     font-family: 'Montserrat', sans-serif;
     border-bottom: 1px solid var(--color-gris);
+    padding: .6em .3em;
 }
+.input-padron:focus + .contacto__nombre--letras,
+.input-padron:not(:placeholder-shown) + .contacto__nombre--letras{
+    color: var(--color-naranja);
+    transform: translateY(-12px) scale(.8);
+    transform-origin: left top;
+}
+.input-padron:focus{
+    border-bottom: 1px solid var(--color-naranja);
+}
+
 .contacto__nombre--letras{
-    position: relative;
+    position: absolute;
+    cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     top: 0;
     left: 5px;
-    margin-top: 1rem;
-    transform: translate(10px);
+    transform: translateY(8px);
+    transition: transform .5s, color .3s;
+}
+.enviar{
+    border: 1px solid var(--color-naranja);
+    background-color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: var(--color-naranja);
+    color: white;
+}
+textarea{
+    resize: none;
 }

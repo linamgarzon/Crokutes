@@ -7,4 +7,10 @@
     height: 50px;
     margin-top: 2rem;
     margin-right: 4rem;
+    cursor: pointer;
+}
+.cabezera_login:hover{
+    background-color: var(--color-naranja);
+    color: white;
+
 }
