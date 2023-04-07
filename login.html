@@ -25,18 +25,52 @@
         </div>
     </div>
 </header>
-<section class="login">
-    <form class="login_form">
-        <label for="email"></label>
-        <input name="email" type="text" class="login_email" placeholder="Ingrese su correo electrónico">
-        <label for="password"></label>
-        <input name="passwork" type="password" class="login_passwork" placeholder="Ingrese su contraseña">
-        <input type="submit" class="login_enter" value="Entrar">
-    </form>
-</section>
-
 <body>
+<section class="login">
+    <h2>Iniciar Sesión</h2>
+    <div class="login_form_user">
+        <form class="login_form">
+            <label for="email"></label>
+            <input name="email" type="text" class="login_email" placeholder="Ingrese su correo electrónico">
+            <label for="password"></label>
+            <input name="passwork" type="password" class="login_passwork" placeholder="Ingrese su contraseña">
+            <input type="submit" class="login_enter" value="Entrar">
+        </form>
+    </div>
+</section>
+<section class="contacto">
+    <div class="contacto__texto">
+        <p class="contacto__descripcion">Habla con nosotros</p>
+        <form action="https://formsubmit.co/garzonlina35@email.com" method="POST" class="contacto__formulario"
+            id="form">
+            <div class="contacto__relleno">
 
+                <input name="nombreapellido" type="text" id="nombreapellido" class="input-padron" required
+                    placeholder=" ">
+                <label class="contacto__nombre--letras" id="nombre" for="nombreapellido">Nombre</label>
+            </div>
+            <div class="contacto__relleno">
+                <textarea name="mensaje" cols="70" rows="7" class="input-padron" placeholder=" "></textarea>
+                <label class="contacto__nombre--letras" for="mensaje">Mensaje</label>
+            </div>
+            <div class="contacto__enviar">
+                <input type="submit" value="Enviar mensaje" class="enviar" id="button">
+            </div>
+        </form>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+        <script type="text/javascript">
+            emailjs.init('2L0syc8bCBFGuPaAI')
+        </script>
+    </div>
+    </form>
+    </div>
+</section>
+<footer class="rodapie">
+    <h3 class="rodapie__titulo">Lina Garzón - Desarrollador de software </h3>
+    <p class="copy_rigth">© 2023 </p>
+    </ul>
+</footer>
 </body>
 
 </html>
