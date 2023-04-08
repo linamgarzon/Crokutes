@@ -1,4 +1,5 @@
 .contacto{
     display:flex;
     justify-content: space-around;
+    background-color:var(--color-narajaclaro);
 }

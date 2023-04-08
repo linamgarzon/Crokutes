@@ -5,6 +5,9 @@
     --color-morado: #A569E8;
     --color-azul: #66E7FF;
     --color-gris: #C0BDBB;
+    --letra:'Montserrat', sans-serif;
+    --color-narajaclaro: #F2EEB6;
+    --color-blancogrisado: #F2F2F2;
     }
 .cabezera{
     display: flex;
