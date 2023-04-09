@@ -1,0 +1,44 @@
+.product_input-seccion{
+    position: relative;
+    margin-left: 38%;
+}
+
+.product_input{
+    width: 40%;
+    border: none;
+    border-bottom: 1px solid var(--color-gris) ;
+    font-family: var(--letra);
+    outline: none;
+    margin-bottom: 4rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+.product_input:focus + .product_label, .product_input:not(:placeholder-shown) + .product_label{
+    color: var(--color-naranja);
+    transform: translateY(-30px) scale(1);
+    transform-origin: left top;
+}
+.product_input:focus{
+    border-bottom: 1px solid var(--color-naranja);
+}
+.product_label{
+    position:absolute;
+    color: var(--color-gris);
+    font-family: var(--letra);
+    left: 0;
+    cursor: pointer;
+    transform: translateY(8px);
+    transition: transform .5s, color .3s;
+}
+.product_enter{
+    margin-left: 38%;
+    padding: 1rem 14rem;
+    background-color: var(--color-naranja);
+    border: none;
+    color: white;
+    font-family: var(--letra);
+    font-size: 1rem;
+    border-radius: .5rem;
+    margin-bottom: 4rem;
+    cursor: pointer;
+}

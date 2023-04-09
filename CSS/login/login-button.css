@@ -1,0 +1,10 @@
+.login_enter{
+    width: 170%;
+    padding: 1rem;
+    font-family: var(--letra);
+    background-color: var(--color-naranja);
+    border: none;
+    color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+}
