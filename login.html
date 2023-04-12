@@ -65,14 +65,14 @@
             <form class="login_form">
                 <div class="login_input-seccion">
                 <label for="email"></label>
-                <input name="email" type="text" class="login_input" placeholder="Ingrese su correo electrónico" required>
+                <input name="email" type="text" class="login_input" placeholder="Ingrese su correo electrónico" required data-email>
                 </div>
                 <div class="login_input-seccion">
                 <label for="password"></label>
-                <input name="passwork" type="password" class="login_input" placeholder="Ingrese su contraseña" required>
+                <input name="passwork" type="password" class="login_input" placeholder="Ingrese su contraseña" required data-password>
                 </div>
                 <div class="login_button">
-                <input type="submit" class="login_enter" value="Entrar">
+                <input type="submit" class="login_enter" value="Entrar" data-button>
                 </div>
             </form>
         </div>
@@ -122,6 +122,8 @@
         <p class="copy_rigth">© 2023 </p>
         </ul>
     </footer>
+    <script src="/Javascript/login.js"></script>
+    <script src="./Javascript/logicaInterfazInicio.js"></script>
 </body>
 
 </html>
