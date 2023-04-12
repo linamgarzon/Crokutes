@@ -15,5 +15,5 @@ function inicioSesion(){
     }
 }
 function ingresar(){
-    window.location.href = './index.html';
+    window.location.href = "/screens/index.html";
 }
