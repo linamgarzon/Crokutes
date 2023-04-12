@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/cabezera.css">
+    <link rel="stylesheet" href="./CSS/cabezera/cabezera-logo.css">
+    <link rel="stylesheet" href="./CSS/cabezera/cabezera-logobusque.css">
+    <link rel="stylesheet" href="./CSS/cabezera/busqueda.css">
+    <link rel="stylesheet" href="./CSS/cabezera/cabezera-login.css">
+    <link rel="stylesheet" href="./CSS/cabezera/cabecerabusqueda/busqueda.css">
+    <link rel="stylesheet" href="./CSS/cabezera/cabecerabusqueda/busqueda-inpu.css">
+    <link rel="stylesheet" href="./CSS/cabezera/cabecerabusqueda/boton-busqueda.css">
+    <link rel="stylesheet" href="./CSS/login/logintitulo.css">
+    <link rel="stylesheet" href="./CSS/login/login.css">
+    <link rel="stylesheet" href="./CSS/login/login-input.css">
+    <link rel="stylesheet" href="./CSS/login/login-form.css">
+    <link rel="stylesheet" href="./CSS/login/login-form-user.css">
+    <link rel="stylesheet" href="./CSS/login/login-button.css">
+    <link rel="stylesheet" href="./CSS/contacto.css">
+    <link rel="stylesheet" href="./CSS/producto/titulo.css">
+    <link rel="stylesheet" href="./CSS/contacto/normativas.css">
+    <link rel="stylesheet" href="./CSS/contacto/normativa-empresa.css">
+    <link rel="stylesheet" href="./CSS/contacto/nomativas-empresa--lista.css">
+    <link rel="stylesheet" href="./CSS/contacto/contacto-logo.css">
+    <link rel="stylesheet" href="./CSS/contacto/contacto-formulario.css">
+    <link rel="stylesheet" href="./CSS/contacto/normativas-link.css">
+    <link rel="stylesheet" href="./CSS/rodapie.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Montserrat:ital,wght@0,300;0,400;0,700;1,500&family=Raleway:wght@200;500&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Raleway:wght@200;500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,500&family=Raleway:wght@200;500&display=swap"
+        rel="stylesheet">
+    <title>Login</title>
+</head>
+<header class="cabezera">
+    <div class="cabezera_logobusque">
+        <img class="cabezera_logo" src="./img/logo.png" alt="Logo">
+        <div class="cabezera_busqueda">
+            <label class="busqueda" for="buscar"></label>
+            <input class="busqueda_input" type="search" placeholder="¿Qué desea buscar?">
+            <button class="boton_busqueda"><img class="boton_imagen" src="./img/busqueda.svg" alt="Buscar"></button>
+        </div>
+    </div>
+</header>
+
+<body>
+    <section class="login">
+        <div class="login_titulo">
+            <h2>Iniciar Sesión</h2>
+        </div>
+        <div class="login_form_user">
+            <form class="login_form">
+                <div class="login_input-seccion">
+                <label for="email"></label>
+                <input name="email" type="text" class="login_input" placeholder="Ingrese su correo electrónico" required data-email>
+                </div>
+                <div class="login_input-seccion">
+                <label for="password"></label>
+                <input name="passwork" type="password" class="login_input" placeholder="Ingrese su contraseña" required data-password>
+                </div>
+                <div class="login_button">
+                <input type="submit" class="login_enter" value="Entrar" data-button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="contacto" id="contacto">
+        <img class="contacto_logo" src="./img/logosinfondo.png" alt="Logo">
+        <div class="normativas_empresa">
+            <ul class="nomativas_empresa-lista">
+                <li class="normativas"><a class="normativas_link" href="#">Quienes Somos</a></li>
+                <li class="normativas"><a class="normativas_link" href="#">Politica de privacidad</a></li>
+                <li class="normativas"><a class="normativas_link" href="#">Programa de fidelidad</a></li>
+                <li class="normativas"><a class="normativas_link" href="#">Nuestras Tiendas</a></li>
+                <li class="normativas"><a class="normativas_link" href="#">Quiero ser franquiciado</a></li>
+                <li class="normativas"><a class="normativas_link" href="#">Anuncie aqui</a></li>
+            </ul>
+        </div>
+        <div class="contacto__texto">
+            <p class="contacto__descripcion">Habla con nosotros</p>
+            <form action="https://formsubmit.co/garzonlina35@email.com" method="POST" class="contacto__formulario"
+                id="form">
+                <div class="contacto__relleno">
+
+                    <input name="nombreapellido" type="text" id="nombreapellido" class="input-padron" required
+                        placeholder=" ">
+                    <label class="contacto__nombre--letras" id="nombre" for="nombreapellido">Nombre</label>
+                </div>
+                <div class="contacto__relleno">
+                    <textarea name="mensaje" cols="70" rows="7" class="input-padron" placeholder=" "></textarea>
+                    <label class="contacto__nombre--letras" for="mensaje">Mensaje</label>
+                </div>
+                <div class="contacto__enviar">
+                    <input type="submit" value="Enviar mensaje" class="enviar" id="button">
+                </div>
+            </form>
+            <script type="text/javascript"
+                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+            <script type="text/javascript">
+                emailjs.init('2L0syc8bCBFGuPaAI')
+            </script>
+        </div>
+        </form>
+        </div>
+    </section>
+    <footer class="rodapie">
+        <h3 class="rodapie__titulo">Lina Garzón - Desarrollador de software </h3>
+        <p class="copy_rigth">© 2023 </p>
+        </ul>
+    </footer>
+    <script src="/Javascript/login.js"></script>
+    <script src="./Javascript/logicaInterfazInicio.js"></script>
+</body>
+
+</html>
