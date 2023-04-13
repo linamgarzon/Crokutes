@@ -1,0 +1,10 @@
+.button_allproducto{
+    border:none;
+    background-color: var(--color-naranja);
+    font-family: var(--letra);
+    color: white;
+    padding: 0 2rem 0 2rem;
+    margin-top: 1rem;
+    margin-right: 7rem;
+    height: 3rem;
+}
