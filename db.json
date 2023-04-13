@@ -1,0 +1,10 @@
+{
+    "producto": [
+        {
+            "url":"/img/NutreCan/Chunky.png",
+            "nombre":"Chunky",
+            "precio": 42.000,
+            "id":1
+        }
+    ]
+  }
