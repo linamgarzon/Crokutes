@@ -1,4 +1,5 @@
 import { productService } from "../Javascript/service/product-server.js";
+import { pricePoint } from "../utils/pricePoint.js";
 
 console.log(productService);
 
@@ -8,7 +9,7 @@ const crearNuevoProducto = (url, nombre, precio) => {
     <div class="producto">
       <img class="producto_imagen" src="${url}" alt="Purina">
       <span class="producto_descripcion">${nombre}</span>
-      <span class="producto_precio" data-precio>${precio}</span>
+      <span class="producto_precio" data-precio>$${pricePoint(precio)}</span>
       <a class="producto_boton" href="#">Ver producto</a>
    </div>`;
     linea.innerHTML = contenido;

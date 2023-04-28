@@ -3,8 +3,14 @@
         {
             "url":"/img/NutreCan/Chunky.png",
             "nombre":"Chunky",
-            "precio": 42.000,
+            "precio": 132000,
             "id":1
+        },
+        {
+            "url":"/img/NutreCan/Chunky.png",
+            "nombre":"Chunky",
+            "precio": 42000,
+            "id":2
         }
     ]
   }

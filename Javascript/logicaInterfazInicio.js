@@ -13,5 +13,7 @@ function inicioSesion(){
     }
 }
 function ingresar(){
+   
     window.open('./index.html');
+    window.close('./login.html');
 }
